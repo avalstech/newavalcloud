@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0B0219;
+  --fg: #F8F7FF;
+}
+
+html, body {
+  background: radial-gradient(1200px 800px at 20% 10%, rgba(108,30,223,0.15), transparent),
+              radial-gradient(900px 600px at 80% 30%, rgba(212,175,55,0.10), transparent),
+              #0B0219;
+  color: var(--fg);
+}
+
+.glow {
+  box-shadow: 0 0 80px rgba(136, 84, 255, 0.15);
+}
